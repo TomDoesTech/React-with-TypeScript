@@ -1,0 +1,70 @@
+html {
+  background-color: #d1d1d1;
+}
+
+.App {
+  background-color: #fff;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  border-bottom: solid 1px #d1d1d1;
+  text-align: center;
+  font-weight: normal;
+  padding: 1rem 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border-bottom: solid 1px #d1d1d1;
+  display: flex;
+  padding: 1rem 0;
+}
+
+li span {
+  flex: 1;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+}
+
+ul button {
+  background-color: #ccc;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.add-todo {
+  display: flex;
+  padding: 1rem;
+}
+
+input {
+  font-size: 1.25rem;
+  border: solid 1px #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.add-todo button {
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  margin-left: 1rem;
+  padding: 1rem;
+}
